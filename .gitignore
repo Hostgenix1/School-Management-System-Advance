@@ -1,0 +1,42 @@
+```
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Laravel specific
+/bootstrap/cache/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+!/storage/app/.gitignore
+!/storage/app/private/.gitignore
+!/storage/app/public/.gitignore
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled and build artifacts
+public/build/
+public/css/app.css
+public/js/app.js
+
+# Testing
+.phpunit.result.cache
+```
